@@ -1,0 +1,25 @@
+.ti-tag-input {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  line-height: inherit;
+
+  &::-ms-clear {
+    display: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &[disabled] {
+    background-color: transparent;
+  }
+}
+

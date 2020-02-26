@@ -26,30 +26,3 @@ export default {
 };
 
 </script>
-
-<style lang="css" scoped>
-.ti-tag-input {
-  background-color: transparent;
-  color: inherit;
-  border: none;
-  padding: 0px;
-  margin: 0px;
-  display: flex;
-  top: 0px;
-  position: absolute;
-  width: 100%;
-  line-height: inherit;
-}
-
-.ti-tag-input::-ms-clear {
-  display: none;
-}
-
-input:focus {
-  outline: none;
-}
-
-input[disabled] {
-  background-color: transparent;
-}
-</style>
